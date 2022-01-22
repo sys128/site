@@ -1,7 +1,7 @@
 <style>
 @font-face {
   font-family: barlow;
-  src: url(fonts/barlow.ttf);
+  src: url(assets/fonts/barlow.ttf);
 }
 
 html {
@@ -11,19 +11,51 @@ html {
 body {
   color: white;
   font-family: barlow;
-  margin-left:10%;
-  margin-right:10%;
-  margin-top: 10%;
+  font-size: 24px;
+  margin-left:15%;
+  margin-right:15%;
+  margin-top: 4%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
 }
 
 .title {
   background-color: #323232;
-  color: #ffffff;
+  color: white;
   font-family: barlow;
   font-style: normal;
   font-size: 36px;
   line-height: 25px;
   letter-spacing: 20px;
+  text-shadow: 0px 0px 10px #190000;
+}
+
+.section {
+  background-color: #323232;
+  color: white;
+  font-family: barlow;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 25px;
+  letter-spacing: 10px;
   text-shadow: 0px 0px 10px #190000;
 }
 </style>
@@ -34,8 +66,31 @@ body {
 </head>
 
 <body>
-	<div class="title">
-		<center><h1>sys128</h1></center>
+ <div class="flex-container">
+  <a href="https://www.youtube.com/c/sys128">YouTube</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://www.twitter.com/syst128">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://discord.gg/EY2TxepA2K">Discord</a>
  </div>
-	<p>Bahh! Where did you come from?? Did you click on the wrong link and you were trying to go somewhere else? No? Hmm, I guess you are welcome to the site. So, who am I? My username is plastered everywhere on here, so I don't need to tell you again.</p>
+ <div class="title">
+  <center><h1>sys128</h1></center>
+ </div>
+ <p>Bahh! Where did you come from?? Did you click on the wrong link and you were trying to go somewhere else? No? Hmm, I guess you are welcome to the site. So, who am I? My username is plastered everywhere on here, so I don't need to tell you again. Anyways, greetings. This is the GitHub homepage for sys128, a casual video-essay-focused YouTube channel, covering topics in video games and the technological espects behind them.</p>
+ <center><h2>Latest video</h2>
+ <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/+lastest?list=UUWaEPINutt-wn0hBhfxzNDQ" frameborder="0" allowfullscreen></iframe></center>
+ <div class="section">
+  <center><h2>Who are you?</h2></center>
+ </div>
+
+ <div class="flex-container">
+  <div style="flex: 70%">
+   <p>If you really must know, I am currently a 16-year-old junior year high school student and part-time YouTube hobbyist. I have a fascination with technical research in video games, usually about vib-ribbon (PSX) and Minecraft: Java Edition. On top of that, I also sometimes study the PlayStation 1's architecture and make connections with my findings from game research.</p>
+   <p>And I'm also a big nerd so there's that too.</p>
+   <h3>Other useless info</h3>
+    <p><img src="assets/images/calendar.svg" width=40px height=40px  align="left">Birthday: March 2nd</p>
+    <p><img src="assets/images/location.svg" width=40px height=40px  align="left">Location: Wisconsin, USA</p>
+    <p><img src="assets/images/male.svg" width=40px height=40px  align="left">Pronouns: he/him [Male]</p>
+    <p><img src="assets/images/heart.svg" width=40px height=40px  align="left">Orientation: Bisexual</p>
+ </div>
+  <div style="flex: 30%"><img src="assets/images/rai-yes.svg" title="Yeah, there I am. Yon."></div>
+ </div>
 </body>
