@@ -148,14 +148,44 @@ a:active {
 
 
 <h2>February 2, 2023</h2>
-<p>- Working on the legs</p>
-<p>- Found a major problem with the head, and I fixed it today</p>
-<p>- I accidentally extended the tabs out past their measurements, which would have made it a pain to put together</p>
+<p>The next thing to do today was to work a little bit more on the legs. Luckily, since I figured out how to do the others by experience, this one was not too difficult to set up. For four legs, I can just prepare half of one leg, duplicate it once and fix some tolerance, and then duplicate that pair 4 times to make four legs in total.</p>
+<p>When I went back to check on the other things, I realized something that I am glad I found out before cutting it out. The tabs were not set up correctly! What happened was that the tabs were extending out past their measurements, making the head too large or even making it a pain to put together. The tab's edges are supposed to align with the edges of the square it is based off of.</p>
 <center><img src="assets/images/fab23/creeper-2.png" alt="Creeper Legs"></center>
 
 
 <h2>February 3, 2023</h2>
 <p>Site day. Some of the days may still be in a bullet point state but they should be the minimum requirement to get credit for it.</p>
+
+
+<h2>February 6, 2023</h2>
+<p>Not as much happened today, but I did make some progress nonetheless. Today, I worked more on the torso of the creeper. I thought about where I can put tabs and where it wouldn't be necessary. The head covers the top of the torso, so I decided not to put tabs there. I also decided to have the bottom be a solid rectangle so idealy, I can just push it in instead of using tabs. If this does not work out as intended, then I will think of another way.</p>
+<center><img src="assets/images/fab23/base-torso-ai.png" alt="Creeper Torso"></center>
+
+<h2>February 7, 2023</h2>
+<p>So, I did some final checks on the 2d modelling, including reducing the amount of space it takes up from 3 whole sheets of wood to only 2 and a half sheets. It's not a big difference, but I am sure my instructor would appreciate it anyway. After I did the checks, I put it all in VCarve to see how the program would react to my .ai files. As it turns out, it was a bit screwy.</p>
+<p>The path that the ShopBot would need to go is all over the place and looks messy! The lines of the cuts were not in the right spot. It would likely make something that wouldn't even be able to be separated from the wood.</p>
+<center><img src="assets/images/fab23/bad_cuts.png" alt="Ew!"></center>
+<p><strong>What is going on here?</strong> That is actually because I forgot to join the lines into full shapes before putting it into VCarve. And it ended up working very nicely! Now I can make the cuts properly, right?</p>
+<p>oh.</p>
+<center><img src="assets/images/fab23/error.png"></center>
+<p>I went out and tried to find out what about the shape was causing this error. And I was able to discover that one of the corners was not lined up properly. It is on a miniscule scale but it is there. This next image is zoomed in 8500%, showing the error that caused the vector to not be cut out properly in VCarve.</p>
+<center><img src="assets/images/fab23/error_reason.png" alt="Womp womp!"></center>
+<p>With that all fixed up, I finally got the toolpath files and VCarve project files saved onto the drive so I don't have to do it later. And now, it's time for the actual fun part of today! I decided to figure out how I am going to do the flowers! Since we need to be 1:1 in this project, that means we have to keep in mind that flowers in Minecraft are absolutely gigantic! Since, a rose is 11 pixels in height, assuming each pixel is 6.25 cm, that means, we have 68.75 cm high flowers! Woulda thunk.</p>
+<p>So we need to figure out how to turn the flowers into clean vectors that we can work with. Turning it into one automatically, not only is not viable due to the usage of different colors, the lines it makes are also not very straight. <strong>No good!</strong> There may have been a better way to do this but what I ended up doing was making a grid of squares and then aligning them with the pixels of the rose.</p>
+<p>From there, I can delete the squares I don't want in the image, and lastly, I can trace the outside of those squares to create the general shape of the flower. And <em>if I remember to JOIN IT this time</em>, we get the final shape! And it looks wonderful!</p>
+<center><img src="assets/images/fab23/flower_prep.png" alt="Before the alignment"></center>
+<center><img src="assets/images/fab23/flower_transformation.png" alt="Image to vector outline"></center>
+
+
+<h2>February 8, 2023</h2>
+- finishing the flower
+- flowers are a cross shape in minecraft
+- was about to test it but could not do it because we did not have 40x28 cardboard
+- texturing plans
+
+
+<h2>February 9, 2023</h2>
+- another site day. i was a little behind on it lol
 
 
 <center><a href="https://github.com/sys128/site/tree/main/assets/images/fab23">View images in repository.</a></href></center>
